@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">kuis_muhammaderdiansyah</string>
+    <string name="nama_pelanggan">Nama Pelanggan</string>
+    <string name="alamat_pelanggan">Alamat Pelanggan</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="pria">Pria</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="tipe_pelanggan">Tipe Pelanggan</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="biasa">Biasa</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="iphone">Iphone</string>
+    <string name="windows_phone">Windows Phone</string>
+    <string name="jumlah_barang">Jumlah Barang</string>
+    <string name="proses">PROSES</string>
+    <string name="cancel">CANCEL</string>
+    <string name="jumlah_bayar">Jumlah Bayar :</string>
+    <string name="terima_kasih_sudah_berbelanja_di_tempat_kami">Terima kasih sudah berbelanja di tempat kami</string>
+    <string name="disc_member">Disc. Member :</string>
+    <string name="disc_harga">Disc. Harga :</string>
+    <string name="nota_transaksi">NOTA TRANSAKSI</string>
+    <string name="tipe_member_gold">Tipe Member : Gold</string>
+    <string name="nama_pelanggan02">Nama Pelanggan :</string>
+    <string name="jenis_kelamin02">Jenis Kelamin :</string>
+    <string name="alamat_pelanggan02">Alamat Pelanggan :</string>
+    <string name="nama_barang02">Nama Barang :</string>
+    <string name="jumlah_barang02">Jumlah Barang :</string>
+    <string name="harga">Harga :</string>
+    <string name="total_harga">Total Harga :</string>
+    <string name="print_nota">PRINT NOTA</string>
+    <string name="android">Android</string>
+</resources>

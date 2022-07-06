@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvnotatransaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginBottom="498dp"
+            android:text="@string/nota_transaksi" />
+
+        <TextView
+            android:id="@+id/tvtipemember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="469dp"
+            android:text="@string/tipe_member_gold" />
+
+        <TextView
+            android:id="@+id/tvnamapel02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="114dp"
+            android:layout_marginBottom="400dp"
+            android:text="@string/nama_pelanggan02" />
+
+        <TextView
+            android:id="@+id/tvjeniskel02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginBottom="369dp"
+            android:text="@string/jenis_kelamin02" />
+
+        <TextView
+            android:id="@+id/tvalamatpel02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="177dp"
+            android:layout_marginBottom="338dp"
+            android:text="@string/alamat_pelanggan02" />
+
+        <TextView
+            android:id="@+id/tvnamabrg02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="206dp"
+            android:layout_marginBottom="309dp"
+            android:text="@string/nama_barang02" />
+
+        <TextView
+            android:id="@+id/tvjumlahbrg02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginBottom="280dp"
+            android:text="@string/jumlah_barang02" />
+
+        <TextView
+            android:id="@+id/tvharga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="265dp"
+            android:layout_marginBottom="250dp"
+            android:text="@string/harga" />
+
+        <TextView
+            android:id="@+id/tvtotalharga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="292dp"
+            android:layout_marginBottom="223dp"
+            android:text="@string/total_harga" />
+
+        <TextView
+            android:id="@+id/tvdischarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="321dp"
+            android:layout_marginBottom="194dp"
+            android:text="@string/disc_harga" />
+
+        <TextView
+            android:id="@+id/tvdiscmember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="353dp"
+            android:layout_marginBottom="162dp"
+            android:text="@string/disc_member" />
+
+        <TextView
+            android:id="@+id/tvjumlahbayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="382dp"
+            android:layout_marginBottom="133dp"
+            android:text="@string/jumlah_bayar" />
+
+        <TextView
+            android:id="@+id/tvterimakasih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="437dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="78dp"
+            android:text="@string/terima_kasih_sudah_berbelanja_di_tempat_kami"/>
+
+        <Button
+            android:id="@+id/btnprintnota"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="485dp"
+            android:layout_marginBottom="1dp"
+            android:text="@string/print_nota" />
+
+</RelativeLayout>
+

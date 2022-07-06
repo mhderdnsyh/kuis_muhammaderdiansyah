@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etnamapelanggan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="626dp"
+            android:text="@string/nama_pelanggan" />
+
+        <EditText
+            android:id="@+id/etalamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginBottom="577dp"
+            android:text="@string/alamat_pelanggan" />
+
+        <TextView
+            android:id="@+id/tvjeniskelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="176dp"
+            android:layout_marginEnd="307dp"
+            android:layout_marginBottom="536dp"
+            android:text="@string/jenis_kelamin" />
+
+        <RadioGroup
+            android:id="@+id/rgjeniskelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_conte
+            android:orientation="horizontal"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="130dp"
+            >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pria"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/perempuan"
+                    android:textSize="16dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvtipepelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="232dp"
+            android:layout_marginEnd="298dp"
+            android:layout_marginBottom="480dp"
+            android:text="@string/tipe_pelanggan" />
+
+        <RadioGroup
+            android:id="@+id/rgtipepelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radiobtngold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gold" />
+
+                <RadioButton
+                    android:id="@+id/radiobtnsilver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/silver" />
+
+                <RadioButton
+                    android:id="@+id/radiobtnbiasa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biasa" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvnamabarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="232dp"
+            android:layout_marginEnd="183dp"
+            android:text="@string/nama_barang" />
+
+        <RadioGroup
+            android:id="@+id/rgnamabarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginStart="141dp"
+            android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radiobtnandroid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/android" />
+
+                <RadioButton
+                    android:id="@+id/radiobtniphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iphone" />
+
+                <RadioButton
+                    android:id="@+id/radiobtnwindowsphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/windows_phone" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etjumlahbarang"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginBottom="242dp"
+            android:text="@string/jumlah_barang" />
+
+        <Button
+            android:id="@+id/btnproses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginEnd="303dp"
+            android:layout_marginBottom="183dp"
+            android:text="@string/proses"
+            android:onClick="btnproses"/>
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginEnd="197dp"
+            android:layout_marginBottom="183dp"
+            android:text="@string/cancel" />
+
+</RelativeLayout>
+
+
